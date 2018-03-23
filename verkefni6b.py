@@ -13,7 +13,7 @@ def data():
     pw = request.forms.get('pass')
     
 
-    skra = open('user.json','r')
+    """skra = open('user.json','r')
     users = json.load(skra)
     
     skra.close()
@@ -23,7 +23,7 @@ def data():
     print(users)
     skra1 = open('user.json','w')
     json.dump(users,skra1)
-    skra1.close()
+    skra1.close()"""
     return us , " hefur veirð bætt við..."
 
 
