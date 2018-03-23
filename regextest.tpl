@@ -9,9 +9,9 @@
 	  E-mail:<br>
       <input type="text" name='email' pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" required><br>
 	  Username:<br>
-      <input type="text" name='user' pattern="(?=.*[a-z])[a-zA-Z]{4,}" required><br>
+      <input type="text" name='user' pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-1])[a-zA-Z]{4,}" required><br>
       Password:<br>
-      <input type="text" name='pass' pattern= "(?=.*[a-z])[a-zA-Z]{4,}" required><br>
+      <input type="text" name='pass' pattern= "(?=.*[a-z])(?=.*[A-Z])(?=.*[0-1])[a-zA-Z]{4,}" required><br>
       <input type='submit' value='Panta'>
   	  <input type='reset' value='Hreinsa'>
 	</form>
