@@ -19,11 +19,11 @@ def data():
     skra.close()
     
     #Bætum nýjum við...
-    """users["user"].append({"u":u,"p":p,"e":m})
+    users["user"].append({"u":u,"p":p,"e":m})
     print(users)
     skra1 = open('user.json','w')
     json.dump(users,skra1)
-    skra1.close()"""
+    skra1.close()
     return us , " hefur veirð bætt við..."
 
 
